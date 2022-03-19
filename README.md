@@ -1,6 +1,7 @@
 # GoogleMapsProject
 
 #Google Maps Project
+
 Name: Hamza Ahmed
 
 
@@ -9,7 +10,9 @@ transportation between cities and at the same time
 search to hotels by accessing other hotel websites.
 
 
-**Objects: **
+##Objects: 
 1-Form Validation Ajax 
+
 2-Google Maps APIs 
+
 3-jQuery
