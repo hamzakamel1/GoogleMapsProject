@@ -28,8 +28,8 @@ transform: translate(-50%, -50%);
     display: block;
     width: 160px;
     height: 50px;
-    background: #0068c5;
-    border: 1px solid #0068c5;
+    background: #5bc0de;
+    border: 1px solid #5bc0de;
     color: white;
     text-align: center;
     font-size: 22px;
@@ -41,7 +41,7 @@ transform: translate(-50%, -50%);
 }
 
 .click-me:hover{
-    background: #0068c5 ,white;
+    background: #5bc0de ,white;
 }
 
 
@@ -170,5 +170,5 @@ ul li.active a{
     width: 300px;
     height: auto;
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 70px;
 }
