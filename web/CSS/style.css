@@ -35,12 +35,12 @@ ul li a{
 }
 
 ul li a:hover{
-    background-color: #0068c5;
+    background-color: #5bc0de;
     color: white;
 }
 
 ul li.active a{
-    background-color: #0068c5;
+    background-color: #5bc0de;
     color: white;
 }
 
@@ -91,7 +91,7 @@ ul li.active a{
 }
 
 .btn:hover{
-    background-color: #0068c5;
+    background-color: #5bc0de;
     color: white;
 }
 
