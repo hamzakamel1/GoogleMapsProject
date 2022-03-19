@@ -7,14 +7,15 @@
 }
 
 body{
-display: flex;
-height: 100vh;
-justify-content: center;
-align-items: center;
-padding: 15px;
-background: #0068c5;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url(../bridge.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center; 
+    max-height: fit-content; 
 }
-
 
 
 ul{
@@ -42,12 +43,12 @@ ul li a{
 
 ul li a:hover{
     background-color: white;
-    color: #0068c5;
+    color: #0f6a86;
 }
 
 ul li.active a{
     background-color: white;
-    color: #0068c5;
+    color: #0f6a86;
 }
 
 
@@ -59,7 +60,9 @@ ul li.active a{
     padding: 15px 30px;
     background: #fff;
     border-radius: 5px;
-    margin-top: 350px;
+    margin-top: 300px;
+    margin-left: 365px;
+    margin-bottom: 100px;
 }
 
 .container .title{
@@ -75,7 +78,7 @@ ul li.active a{
     bottom: 0;
     height: 3px; 
     width: 30px;
-    background: linear-gradient(135deg,#0068c5, #5c9bd3);
+    background: linear-gradient(135deg,#5bc0de, #5c9bd3);
 }
 
 
@@ -165,7 +168,7 @@ justify-content: space-between;
 #dot-3:checked ~ .category label .three{
     
     border-color: #d9d9d9;
-    background: #2d5795;
+    background: #5bc0de;
 }
 
 form input[type="radio"]{
@@ -191,12 +194,12 @@ form .button input{
     border-radius: 5px;
     letter-spacing: 1px;
 
-    background: linear-gradient(135deg, #0068c5, #5c9bd3);
+    background: linear-gradient(135deg, #5bc0de, #5c9bd3);
 }
 
 
 form .button input:hover{
-    background: linear-gradient(-135deg, #0068c5, #5c9bd3);
+    background: linear-gradient(-135deg, #5bc0de, #5c9bd3);
 }
 
 .logo img{
@@ -204,7 +207,7 @@ form .button input:hover{
     width: 300px;
     height: auto;
     position: absolute;
-    top: 40px;
+    top: 30px;
     left: 50px;
 
 
