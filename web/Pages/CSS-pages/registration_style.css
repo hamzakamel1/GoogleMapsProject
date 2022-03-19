@@ -17,14 +17,18 @@ body{
     max-height: fit-content; 
 }
 
+header{
+    height: 4vh;
+    background-size: cover;
+    background-position: center;
+
+}
 
 ul{
     float: right;
     list-style-type: none;
-    position: absolute;
-    top: 110px;
-    right: 30px;
- 
+    margin-top: 125px;
+    margin-right: 20px;
 }
 
 ul li{
@@ -37,22 +41,27 @@ ul li a{
     text-decoration: none;
     color: white;
     padding: 5px 40px;
-    border: 2px solid transparent ;
+    border: 3px solid transparent ;
     transition: 0.5s ease;
 }
 
 ul li a:hover{
-    background-color: white;
-    color: #0f6a86;
+    background-color: #5bc0de;
+    color: white;
 }
 
 ul li.active a{
-    background-color: white;
-    color: #0f6a86;
+    background-color: #5bc0de;
+    color: white;
 }
 
-
-
+.logo img{
+    float: left;
+    width: 300px;
+    height: auto;
+    margin-top: 5px;
+    margin-left: -5px;
+}
 
 .container{
     max-width: 700px;
@@ -61,8 +70,8 @@ ul li.active a{
     background: #fff;
     border-radius: 5px;
     margin-top: 300px;
-    margin-left: 365px;
-    margin-bottom: 100px;
+    margin-left: 380px;
+    margin-bottom: 150px;
 }
 
 .container .title{

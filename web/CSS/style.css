@@ -17,7 +17,7 @@ ul{
     float: right;
     list-style-type: none;
     margin-top: 125px;
-    margin-right: 20px;
+    margin-right: -95px;
 }
 
 ul li{
@@ -48,7 +48,7 @@ ul li.active a{
     float: left;
     width: 300px;
     height: auto;
-    margin-top: 15px;
+    margin-top: 20px;
     margin-left: -5px;
 }
 

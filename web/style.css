@@ -22,26 +22,32 @@ body {
   .jumbotron h1 {
     letter-spacing: 2.5px;
     font-size: 3.5em;
+    margin-bottom: 40px;
+
   }
   
-  .jumbotron h1,
-  .jumbotron p {
+  .jumbotron h1 {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+  }
+
+  .jumbotron p{
+    text-align: center;
+    margin-bottom: 70px;
   }
 
   header{
 
-    height: 30vh;
+    height: 35vh;
     background-size: cover;
     background-position: center;
 
 }
 
-  ul{
+ul{
     float: right;
     list-style-type: none;
-    margin-top: 100px;
+    margin-top: 125px;
     margin-right: 20px;
 }
 
@@ -73,10 +79,9 @@ ul li.active a{
     float: left;
     width: 300px;
     height: auto;
-    margin-top: 10px;
-    margin-left: 40px;
+    margin-top: 15px;
+    margin-left: 60px;
 }
-
 
   
   /*map*/
