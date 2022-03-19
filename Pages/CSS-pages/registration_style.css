@@ -1,0 +1,237 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url(../bridge.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center; 
+    max-height: fit-content; 
+}
+
+header{
+    height: 4vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 125px;
+    margin-right: 20px;
+}
+
+ul li{
+    display: inline-block;
+    color: white;
+}
+
+ul li a{
+
+    text-decoration: none;
+    color: white;
+    padding: 5px 40px;
+    border: 3px solid transparent ;
+    transition: 0.5s ease;
+}
+
+ul li a:hover{
+    background-color: #5bc0de;
+    color: white;
+}
+
+ul li.active a{
+    background-color: #5bc0de;
+    color: white;
+}
+
+.logo img{
+    float: left;
+    width: 300px;
+    height: auto;
+    margin-top: -10px;
+    margin-left: 60px;
+}
+
+.container{
+    max-width: 700px;
+    width: 100%;
+    padding: 15px 30px;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 300px;
+    margin-left: 380px;
+    margin-bottom: 150px;
+}
+
+.container .title{
+    font-size: 30px;
+    font-weight: 500px;
+    position: relative;
+}
+
+.container .title::before {
+    content:'';
+    position:absolute; 
+    left: 0;
+    bottom: 0;
+    height: 3px; 
+    width: 30px;
+    background: linear-gradient(135deg,#5bc0de, #5c9bd3);
+}
+
+
+
+.container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+
+}
+
+form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100%/2 - 20px);
+}
+
+.user-details .input-box .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+
+}
+
+.user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.4s ease;
+}
+
+
+.user-details .input-box input:focus, 
+.user-details .input-box input:valid{
+    border-color:#2d5795;
+}
+
+
+form .Insert-area .Tracks{
+    display: block;
+}
+
+
+form .gender-details {
+    margin: 10px 20px;
+    padding-top: 30px;
+}
+
+form .gender-details .gender-title{
+    font-size: 20px;
+    font-weight: 500;
+    padding: auto;
+    margin: auto;
+}
+
+
+form .gender-details .category{
+display: flex;
+width: 80%;
+margin: 14px 0;
+justify-content: space-between;
+}
+
+
+.gender-details .category label{
+    display: flex;
+    align-items: center;
+}
+
+.gender-details .category  .dot{
+    height: 18px;
+    width: 18px;
+    background: #d9d9d9;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 5px solid transparent;
+    transition: all 0.2s ease;
+}
+
+#dot-1:checked ~ .category label .one,
+#dot-2:checked ~ .category label .two,
+#dot-3:checked ~ .category label .three{
+    
+    border-color: #d9d9d9;
+    background: #5bc0de;
+}
+
+form input[type="radio"]{
+    display: none;
+}
+
+
+
+form .button{
+    height: 45px;
+    margin: 15px 10px;
+    padding-top: 1px;
+}
+
+form .button input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+
+    background: linear-gradient(135deg, #5bc0de, #5c9bd3);
+}
+
+
+form .button input:hover{
+    background: linear-gradient(-135deg, #5bc0de, #5c9bd3);
+}
+
+.logo img{
+    float: left;
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
