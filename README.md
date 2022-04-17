@@ -1,4 +1,4 @@
-# GoogleMapsProject
+# My Trip - GoogleMapsProject
 
 
 Name: Hamza Ahmed
